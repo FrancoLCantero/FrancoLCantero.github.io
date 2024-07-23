@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etiquetas semánticas</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-		<header class="contenedor"><p>&lt;HEADER&gt;</p></header>
-    <nav class="contenedor"><a href="./tierra/tierra.html"><p>&lt;NAV&gt;</p></a></nav>
-    <main>
-      <section class="contenedor">
-	<a href="./galería/galería.html">
-	  <p>&lt;SECTION&gt;</p>
-	</a>
-        <article>
-          <a href="./flipcard/flipcard.html" target="_blank">
-	    <p>&lt;ARTICLE&gt;</p>
-	  </a>
-        </article>
-        <article>
-          <a href="./flipcard2/flipcard2.html" target="_blank">
-	    <p>&lt;ARTICLE&gt;</p>
-	  </a>
-        </article>
-        <article>
-          <p>&lt;ARTICLE&gt;</p>
-        </article>
-      </section>
-      <aside class="contenedor">
-        <p>&lt;ASIDE&gt;</p>
-      </aside>
-    </main>
-    <footer class="contenedor">
-      <p>&lt;FOOTER&gt;</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Proyectos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Portafolio</h1>
+  </header>
+
+  <div class="container">
+    <section class="projects">
+      <a href="./galería/galería.html" class="project">
+        <img src="https://via.placeholder.com/300" alt="Galería">
+        <div class="project-content">
+          <h3>Galería</h3>
+          <p>Proyecto de Galería</p>
+        </div>
+      </a>
+      <a href="./flipcard/flipcard.html" class="project">
+        <img src="https://via.placeholder.com/300" alt="Flipcard 1">
+        <div class="project-content">
+          <h3>Flipcard 1</h3>
+          <p>Proyecto de Flipcard 1</p>
+        </div>
+      </a>
+      <a href="./flipcard2/flipcard2.html" class="project">
+        <img src="https://via.placeholder.com/300" alt="Flipcard 2">
+        <div class="project-content">
+          <h3>Flipcard 2</h3>
+          <p>Proyecto de Flipcard 2</p>
+        </div>
+      </a>
+      <a href="#" class="project">
+        <img src="https://via.placeholder.com/300" alt="Proyecto 3">
+        <div class="project-content">
+          <h3>Proyecto 3</h3>
+          <p>Descripción del Proyecto 3</p>
+        </div>
+      </a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Mi Portafolio</p>
+  </footer>
+</body>
 </html>
